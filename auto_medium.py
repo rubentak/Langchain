@@ -44,14 +44,14 @@ with open('data/code.txt', 'w') as f:
     for item in code:
         f.write("%s\n" % item)
 
-with open('data/notebook.txt', 'w') as f:
+with open('notebook.txt', 'w') as f:
     for item in notebook:
         f.write("%s\n" % item)
 
 # read in the markdown and code text files
 markdown = open("data/markdown.txt", "r")
 code = open("data/code.txt", "r")
-notebook = open("data/notebook.txt", "r")
+notebook = open("notebook.txt", "r")
 #
 
 
