@@ -1,4 +1,4 @@
-# Reading in a ipzthon notebook file as a text document and cleaning
+# Reading in a python notebook file as a text document and cleaning
 
 
 #%% READING
@@ -36,22 +36,22 @@ for cell in data['cells']:
     notebook.append(cell['source'])
 
 # append the markdown and code to a text file
-with open('markdown.txt', 'w') as f:
+with open('data/markdown.txt', 'w') as f:
     for item in markdown:
         f.write("%s\n" % item)
 
-with open('code.txt', 'w') as f:
+with open('data/code.txt', 'w') as f:
     for item in code:
         f.write("%s\n" % item)
 
-with open('notebook.txt', 'w') as f:
+with open('data/notebook.txt', 'w') as f:
     for item in notebook:
         f.write("%s\n" % item)
 
 # read in the markdown and code text files
-markdown = open("markdown.txt", "r")
-code = open("code.txt", "r")
-notebook = open("notebook.txt", "r")
+markdown = open("data/markdown.txt", "r")
+code = open("data/code.txt", "r")
+notebook = open("data/notebook.txt", "r")
 #
 
 
