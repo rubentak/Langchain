@@ -11,6 +11,8 @@ For example, you can use LangChain to create an AI chatbot that can answer quest
 Overall, LangChain provides a flexible and powerful tool for building more sophisticated AI applications by allowing you to connect and utilize a wider range of models and data sources.
 
 <br>
-<img src="data/langchain.jpg" alt="Langchain image" width="1200"/>
+<img src="data/langchain_drawing.jpg" alt="Langchain image" width="1200"/>
 
+<img sr
 [Documentation Langchain](https://python.langchain.com/en/latest/index.html)
+
