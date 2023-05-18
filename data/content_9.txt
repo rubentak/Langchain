@@ -1,0 +1,890 @@
+
+
+
+
+
+
+Getting Started — 🦜🔗 LangChain 0.0.173
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+Ctrl+K
+
+
+
+
+
+
+
+
+
+
+
+
+🦜🔗 LangChain 0.0.173
+
+
+
+Getting Started
+
+Quickstart Guide
+Concepts
+Tutorials
+
+Modules
+
+Models
+Getting Started
+LLMs
+Getting Started
+Generic Functionality
+How to use the async API for LLMs
+How to write a custom LLM wrapper
+How (and why) to use the fake LLM
+How (and why) to use the the human input LLM
+How to cache LLM calls
+How to serialize LLM classes
+How to stream LLM and Chat Model responses
+How to track token usage
+
+
+Integrations
+AI21
+Aleph Alpha
+Anyscale
+Azure OpenAI
+Banana
+CerebriumAI
+Cohere
+DeepInfra
+ForefrontAI
+GooseAI
+GPT4All
+Hugging Face Hub
+Hugging Face Local Pipelines
+Huggingface TextGen Inference
+Structured Decoding with JSONFormer
+Llama-cpp
+Manifest
+Modal
+NLP Cloud
+OpenAI
+Petals
+PipelineAI
+PredictionGuard
+PromptLayer OpenAI
+Structured Decoding with RELLM
+Replicate
+Runhouse
+SageMakerEndpoint
+StochasticAI
+Writer
+
+
+Reference
+
+
+Chat Models
+Getting Started
+How-To Guides
+How to use few shot examples
+How to stream responses
+
+
+Integrations
+Anthropic
+Azure
+OpenAI
+PromptLayer ChatOpenAI
+
+
+
+
+Text Embedding Models
+Aleph Alpha
+AzureOpenAI
+Cohere
+Fake Embeddings
+Hugging Face Hub
+InstructEmbeddings
+Jina
+Llama-cpp
+OpenAI
+SageMaker Endpoint Embeddings
+Self Hosted Embeddings
+Sentence Transformers Embeddings
+TensorflowHub
+
+
+
+
+Prompts
+Getting Started
+Prompt Templates
+Getting Started
+How-To Guides
+Connecting to a Feature Store
+How to create a custom prompt template
+How to create a prompt template that uses few shot examples
+How to work with partial Prompt Templates
+How to serialize prompts
+
+
+Reference
+PromptTemplates
+Example Selector
+Output Parsers
+
+
+
+
+Chat Prompt Template
+Example Selectors
+How to create a custom example selector
+LengthBased ExampleSelector
+Maximal Marginal Relevance ExampleSelector
+NGram Overlap ExampleSelector
+Similarity ExampleSelector
+
+
+Output Parsers
+Output Parsers
+CommaSeparatedListOutputParser
+OutputFixingParser
+PydanticOutputParser
+RetryOutputParser
+Structured Output Parser
+
+
+
+
+Indexes
+Getting Started
+Document Loaders
+CoNLL-U
+Copy Paste
+CSV
+Email
+EPub
+EverNote
+Facebook Chat
+File Directory
+HTML
+Images
+Jupyter Notebook
+Markdown
+Microsoft PowerPoint
+Microsoft Word
+Pandas DataFrame
+PDF
+Sitemap
+Subtitle
+Telegram
+TOML
+Unstructured File
+URL
+WebBaseLoader
+WhatsApp Chat
+Arxiv
+AZLyrics
+BiliBili
+College Confidential
+Gutenberg
+Hacker News
+HuggingFace dataset
+iFixit
+IMSDb
+MediaWikiDump
+YouTube transcripts
+Airbyte JSON
+Apify Dataset
+AWS S3 Directory
+AWS S3 File
+Azure Blob Storage Container
+Azure Blob Storage File
+Blackboard
+Blockchain
+ChatGPT Data
+Confluence
+Diffbot
+Discord
+Docugami
+DuckDB
+Figma
+GitBook
+Git
+Google BigQuery
+Google Cloud Storage Directory
+Google Cloud Storage File
+Google Drive
+Image captions
+Microsoft OneDrive
+Modern Treasury
+Notion DB 2/2
+Notion DB 1/2
+Obsidian
+ReadTheDocs Documentation
+Reddit
+Roam
+Slack
+Spreedly
+Stripe
+Twitter
+
+
+Text Splitters
+Getting Started
+Character
+LaTeX
+Markdown
+NLTK
+Python Code
+Recursive Character
+spaCy
+Tiktoken
+Hugging Face tokenizer
+tiktoken (OpenAI) tokenizer
+
+
+Vectorstores
+Getting Started
+AnalyticDB
+Annoy
+AtlasDB
+Chroma
+Deep Lake
+DocArrayHnswSearch
+DocArrayInMemorySearch
+ElasticSearch
+FAISS
+LanceDB
+Milvus
+MyScale
+OpenSearch
+PGVector
+Pinecone
+Qdrant
+Redis
+Supabase (Postgres)
+Tair
+Weaviate
+Zilliz
+
+
+Retrievers
+Arxiv
+Azure Cognitive Search Retriever
+ChatGPT Plugin
+Self-querying with Chroma
+Cohere Reranker
+Contextual Compression
+Databerry
+ElasticSearch BM25
+kNN
+Metal
+Pinecone Hybrid Search
+Self-querying
+SVM
+TF-IDF
+Time Weighted VectorStore
+VectorStore
+Vespa
+Weaviate Hybrid Search
+Wikipedia
+
+
+
+
+Memory
+Getting Started
+How-To Guides
+ConversationBufferMemory
+ConversationBufferWindowMemory
+Entity Memory
+Conversation Knowledge Graph Memory
+ConversationSummaryMemory
+ConversationSummaryBufferMemory
+ConversationTokenBufferMemory
+VectorStore-Backed Memory
+How to add Memory to an LLMChain
+How to add memory to a Multi-Input Chain
+How to add Memory to an Agent
+Adding Message Memory backed by a database to an Agent
+Cassandra Chat Message History
+How to customize conversational memory
+How to create a custom Memory class
+Mongodb Chat Message History
+Motörhead Memory
+How to use multiple memory classes in the same chain
+Postgres Chat Message History
+Redis Chat Message History
+Zep Memory
+
+
+
+
+Chains
+Getting Started
+How-To Guides
+Async API for Chain
+Creating a custom Chain
+Loading from LangChainHub
+LLM Chain
+Router Chains
+Sequential Chains
+Serialization
+Transformation Chain
+Analyze Document
+Chat Over Documents with Chat History
+Graph QA
+Hypothetical Document Embeddings
+Question Answering with Sources
+Question Answering
+Summarization
+Retrieval Question/Answering
+Retrieval Question Answering with Sources
+Vector DB Text Generation
+API Chains
+Self-Critique Chain with Constitutional AI
+FLARE
+BashChain
+LLMCheckerChain
+LLM Math
+LLMRequestsChain
+LLMSummarizationCheckerChain
+Moderation
+Router Chains: Selecting from multiple prompts with MultiPromptChain
+Router Chains: Selecting from multiple prompts with MultiRetrievalQAChain
+OpenAPI Chain
+PAL
+SQL Chain example
+
+
+Reference
+
+
+Agents
+Getting Started
+Tools
+Getting Started
+Defining Custom Tools
+Multi-Input Tools
+Tool Input Schema
+Apify
+ArXiv API Tool
+AWS Lambda API
+Shell Tool
+Bing Search
+ChatGPT Plugins
+DuckDuckGo Search
+File System Tools
+Google Places
+Google Search
+Google Serper API
+Gradio Tools
+GraphQL tool
+HuggingFace Tools
+Human as a tool
+IFTTT WebHooks
+Metaphor Search
+OpenWeatherMap API
+Python REPL
+Requests
+SceneXplain
+Search Tools
+SearxNG Search API
+SerpAPI
+Wikipedia
+Wolfram Alpha
+YouTubeSearchTool
+Zapier Natural Language Actions API
+
+
+Agents
+Agent Types
+Custom Agent
+Custom LLM Agent
+Custom LLM Agent (with a ChatModel)
+Custom MRKL Agent
+Custom MultiAction Agent
+Custom Agent with Tool Retrieval
+Conversation Agent (for Chat Models)
+Conversation Agent
+MRKL
+MRKL Chat
+ReAct
+Self Ask With Search
+Structured Tool Chat Agent
+
+
+Toolkits
+CSV Agent
+Gmail Toolkit
+Jira
+JSON Agent
+OpenAPI agents
+Natural Language APIs
+Pandas Dataframe Agent
+PlayWright Browser Toolkit
+PowerBI Dataset Agent
+Python Agent
+Spark Dataframe Agent
+SQL Database Agent
+Vectorstore Agent
+
+
+Agent Executors
+How to combine agents and vectorstores
+How to use the async API for Agents
+How to create ChatGPT Clone
+Handle Parsing Errors
+How to access intermediate steps
+How to cap the max number of iterations
+How to use a timeout for the agent
+How to add SharedMemory to an Agent and its Tools
+
+
+Plan and Execute
+
+
+Callbacks
+
+Use Cases
+
+Autonomous Agents
+Agent Simulations
+Agents
+Question Answering over Docs
+Chatbots
+Querying Tabular Data
+Code Understanding
+Interacting with APIs
+Summarization
+Extraction
+Evaluation
+Agent Benchmarking: Search + Calculator
+Agent VectorDB Question Answering Benchmarking
+Benchmarking Template
+Data Augmented Question Answering
+Generic Agent Evaluation
+Using Hugging Face Datasets
+LLM Math
+Evaluating an OpenAPI Chain
+Question Answering Benchmarking: Paul Graham Essay
+Question Answering Benchmarking: State of the Union Address
+QA Generation
+Question Answering
+SQL Question Answering Benchmarking: Chinook
+
+
+
+Reference
+
+Installation
+API References
+Models
+LLMs
+Chat Models
+Embeddings
+
+
+Prompts
+PromptTemplates
+Example Selector
+Output Parsers
+
+
+Indexes
+Docstore
+Text Splitter
+Document Loaders
+Vector Stores
+Retrievers
+Document Compressors
+Document Transformers
+
+
+Memory
+Chains
+Agents
+Agents
+Tools
+Agent Toolkits
+
+
+Utilities
+Experimental Modules
+
+
+
+Ecosystem
+
+Integrations
+AI21 Labs
+Aim
+AnalyticDB
+Anyscale
+Apify
+AtlasDB
+Banana
+CerebriumAI
+Chroma
+ClearML Integration
+Cohere
+Comet
+Databerry
+DeepInfra
+Deep Lake
+Docugami
+ForefrontAI
+Google Search
+Google Serper
+GooseAI
+GPT4All
+Graphsignal
+Hazy Research
+Helicone
+Hugging Face
+Jina
+LanceDB
+Llama.cpp
+Metal
+Milvus
+MLflow
+Modal
+MyScale
+NLPCloud
+OpenAI
+OpenSearch
+OpenWeatherMap API
+Petals
+PGVector
+Pinecone
+PipelineAI
+Prediction Guard
+PromptLayer
+Qdrant
+Rebuff: Prompt Injection Detection with LangChain
+Redis
+Replicate
+Runhouse
+RWKV-4
+SearxNG Search API
+SerpAPI
+StochasticAI
+Tair
+Unstructured
+Weights & Biases
+Weaviate
+Wolfram Alpha Wrapper
+Writer
+Yeager.ai
+Zilliz
+
+
+Dependents
+
+Additional Resources
+
+LangChainHub
+Gallery
+Deployments
+Tracing
+Model Comparison
+Discord
+YouTube
+Production Support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ipynb
+
+
+
+
+
+
+
+.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Getting Started
+
+
+
+
+
+
+
+
+
+Getting Started#
+This notebook goes over how to use the LLM class in LangChain.
+The LLM class is a class designed for interfacing with LLMs. There are lots of LLM providers (OpenAI, Cohere, Hugging Face, etc) - this class is designed to provide a standard interface for all of them. In this part of the documentation, we will focus on generic LLM functionality. For details on working with a specific LLM wrapper, please see the examples in the How-To section.
+For this notebook, we will work with an OpenAI LLM wrapper, although the functionalities highlighted are generic for all LLM types.
+
+
+from langchain.llms import OpenAI
+
+
+
+
+
+
+llm = OpenAI(model_name="text-ada-001", n=2, best_of=2)
+
+
+
+
+Generate Text: The most basic functionality an LLM has is just the ability to call it, passing in a string and getting back a string.
+
+
+llm("Tell me a joke")
+
+
+
+
+'\n\nWhy did the chicken cross the road?\n\nTo get to the other side.'
+
+
+
+
+Generate: More broadly, you can call it with a list of inputs, getting back a more complete response than just the text. This complete response includes things like multiple top responses, as well as LLM provider specific information
+
+
+llm_result = llm.generate(["Tell me a joke", "Tell me a poem"]*15)
+
+
+
+
+
+
+len(llm_result.generations)
+
+
+
+
+30
+
+
+
+
+
+
+llm_result.generations[0]
+
+
+
+
+[Generation(text='\n\nWhy did the chicken cross the road?\n\nTo get to the other side!'),
+ Generation(text='\n\nWhy did the chicken cross the road?\n\nTo get to the other side.')]
+
+
+
+
+
+
+llm_result.generations[-1]
+
+
+
+
+[Generation(text="\n\nWhat if love neverspeech\n\nWhat if love never ended\n\nWhat if love was only a feeling\n\nI'll never know this love\n\nIt's not a feeling\n\nBut it's what we have for each other\n\nWe just know that love is something strong\n\nAnd we can't help but be happy\n\nWe just feel what love is for us\n\nAnd we love each other with all our heart\n\nWe just don't know how\n\nHow it will go\n\nBut we know that love is something strong\n\nAnd we'll always have each other\n\nIn our lives."),
+ Generation(text='\n\nOnce upon a time\n\nThere was a love so pure and true\n\nIt lasted for centuries\n\nAnd never became stale or dry\n\nIt was moving and alive\n\nAnd the heart of the love-ick\n\nIs still beating strong and true.')]
+
+
+
+
+You can also access provider specific information that is returned. This information is NOT standardized across providers.
+
+
+llm_result.llm_output
+
+
+
+
+{'token_usage': {'completion_tokens': 3903,
+  'total_tokens': 4023,
+  'prompt_tokens': 120}}
+
+
+
+
+Number of Tokens: You can also estimate how many tokens a piece of text will be in that model. This is useful because models have a context length (and cost more for more tokens), which means you need to be aware of how long the text you are passing in is.
+Notice that by default the tokens are estimated using tiktoken (except for legacy version <3.8, where a Hugging Face tokenizer is used)
+
+
+llm.get_num_tokens("what a joke")
+
+
+
+
+3
+
+
+
+
+
+
+
+
+
+
+
+
+previous
+LLMs
+
+
+
+
+next
+Generic Functionality
+
+
+
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on May 18, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-# Reading in a python notebook file as a text document and cleaning
+'''Reading in a python notebook file as a text document and cleaning'''
 
 
 #%% READING
@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Reading in a python files as a text document
-text = open("langchain.ipynb", "r")
+text = open("notebooks/langchain.ipynb", "r")
 
 # print frirst 5 lines of text
 for x in range(50):
@@ -23,7 +23,7 @@ code = []
 markdown = []
 notebook = []
 
-with open('langchain.ipynb', 'r') as f:
+with open('notebooks/langchain.ipynb', 'r') as f:
     data = json.load(f)
 
 for cell in data['cells']:
@@ -44,14 +44,14 @@ with open('data/code.txt', 'w') as f:
     for item in code:
         f.write("%s\n" % item)
 
-with open('notebook.txt', 'w') as f:
+with open('data/notebook.txt', 'w') as f:
     for item in notebook:
         f.write("%s\n" % item)
 
 # read in the markdown and code text files
 markdown = open("data/markdown.txt", "r")
 code = open("data/code.txt", "r")
-notebook = open("notebook.txt", "r")
+notebook = open("data/notebook.txt", "r")
 #
 
 

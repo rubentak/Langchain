@@ -1,0 +1,905 @@
+
+
+
+
+
+
+Concepts — 🦜🔗 LangChain 0.0.173
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+Ctrl+K
+
+
+
+
+
+
+
+
+
+
+
+
+🦜🔗 LangChain 0.0.173
+
+
+
+Getting Started
+
+Quickstart Guide
+Concepts
+Tutorials
+
+Modules
+
+Models
+Getting Started
+LLMs
+Getting Started
+Generic Functionality
+How to use the async API for LLMs
+How to write a custom LLM wrapper
+How (and why) to use the fake LLM
+How (and why) to use the the human input LLM
+How to cache LLM calls
+How to serialize LLM classes
+How to stream LLM and Chat Model responses
+How to track token usage
+
+
+Integrations
+AI21
+Aleph Alpha
+Anyscale
+Azure OpenAI
+Banana
+CerebriumAI
+Cohere
+DeepInfra
+ForefrontAI
+GooseAI
+GPT4All
+Hugging Face Hub
+Hugging Face Local Pipelines
+Huggingface TextGen Inference
+Structured Decoding with JSONFormer
+Llama-cpp
+Manifest
+Modal
+NLP Cloud
+OpenAI
+Petals
+PipelineAI
+PredictionGuard
+PromptLayer OpenAI
+Structured Decoding with RELLM
+Replicate
+Runhouse
+SageMakerEndpoint
+StochasticAI
+Writer
+
+
+Reference
+
+
+Chat Models
+Getting Started
+How-To Guides
+How to use few shot examples
+How to stream responses
+
+
+Integrations
+Anthropic
+Azure
+OpenAI
+PromptLayer ChatOpenAI
+
+
+
+
+Text Embedding Models
+Aleph Alpha
+AzureOpenAI
+Cohere
+Fake Embeddings
+Hugging Face Hub
+InstructEmbeddings
+Jina
+Llama-cpp
+OpenAI
+SageMaker Endpoint Embeddings
+Self Hosted Embeddings
+Sentence Transformers Embeddings
+TensorflowHub
+
+
+
+
+Prompts
+Getting Started
+Prompt Templates
+Getting Started
+How-To Guides
+Connecting to a Feature Store
+How to create a custom prompt template
+How to create a prompt template that uses few shot examples
+How to work with partial Prompt Templates
+How to serialize prompts
+
+
+Reference
+PromptTemplates
+Example Selector
+Output Parsers
+
+
+
+
+Chat Prompt Template
+Example Selectors
+How to create a custom example selector
+LengthBased ExampleSelector
+Maximal Marginal Relevance ExampleSelector
+NGram Overlap ExampleSelector
+Similarity ExampleSelector
+
+
+Output Parsers
+Output Parsers
+CommaSeparatedListOutputParser
+OutputFixingParser
+PydanticOutputParser
+RetryOutputParser
+Structured Output Parser
+
+
+
+
+Indexes
+Getting Started
+Document Loaders
+CoNLL-U
+Copy Paste
+CSV
+Email
+EPub
+EverNote
+Facebook Chat
+File Directory
+HTML
+Images
+Jupyter Notebook
+Markdown
+Microsoft PowerPoint
+Microsoft Word
+Pandas DataFrame
+PDF
+Sitemap
+Subtitle
+Telegram
+TOML
+Unstructured File
+URL
+WebBaseLoader
+WhatsApp Chat
+Arxiv
+AZLyrics
+BiliBili
+College Confidential
+Gutenberg
+Hacker News
+HuggingFace dataset
+iFixit
+IMSDb
+MediaWikiDump
+YouTube transcripts
+Airbyte JSON
+Apify Dataset
+AWS S3 Directory
+AWS S3 File
+Azure Blob Storage Container
+Azure Blob Storage File
+Blackboard
+Blockchain
+ChatGPT Data
+Confluence
+Diffbot
+Discord
+Docugami
+DuckDB
+Figma
+GitBook
+Git
+Google BigQuery
+Google Cloud Storage Directory
+Google Cloud Storage File
+Google Drive
+Image captions
+Microsoft OneDrive
+Modern Treasury
+Notion DB 2/2
+Notion DB 1/2
+Obsidian
+ReadTheDocs Documentation
+Reddit
+Roam
+Slack
+Spreedly
+Stripe
+Twitter
+
+
+Text Splitters
+Getting Started
+Character
+LaTeX
+Markdown
+NLTK
+Python Code
+Recursive Character
+spaCy
+Tiktoken
+Hugging Face tokenizer
+tiktoken (OpenAI) tokenizer
+
+
+Vectorstores
+Getting Started
+AnalyticDB
+Annoy
+AtlasDB
+Chroma
+Deep Lake
+DocArrayHnswSearch
+DocArrayInMemorySearch
+ElasticSearch
+FAISS
+LanceDB
+Milvus
+MyScale
+OpenSearch
+PGVector
+Pinecone
+Qdrant
+Redis
+Supabase (Postgres)
+Tair
+Weaviate
+Zilliz
+
+
+Retrievers
+Arxiv
+Azure Cognitive Search Retriever
+ChatGPT Plugin
+Self-querying with Chroma
+Cohere Reranker
+Contextual Compression
+Databerry
+ElasticSearch BM25
+kNN
+Metal
+Pinecone Hybrid Search
+Self-querying
+SVM
+TF-IDF
+Time Weighted VectorStore
+VectorStore
+Vespa
+Weaviate Hybrid Search
+Wikipedia
+
+
+
+
+Memory
+Getting Started
+How-To Guides
+ConversationBufferMemory
+ConversationBufferWindowMemory
+Entity Memory
+Conversation Knowledge Graph Memory
+ConversationSummaryMemory
+ConversationSummaryBufferMemory
+ConversationTokenBufferMemory
+VectorStore-Backed Memory
+How to add Memory to an LLMChain
+How to add memory to a Multi-Input Chain
+How to add Memory to an Agent
+Adding Message Memory backed by a database to an Agent
+Cassandra Chat Message History
+How to customize conversational memory
+How to create a custom Memory class
+Mongodb Chat Message History
+Motörhead Memory
+How to use multiple memory classes in the same chain
+Postgres Chat Message History
+Redis Chat Message History
+Zep Memory
+
+
+
+
+Chains
+Getting Started
+How-To Guides
+Async API for Chain
+Creating a custom Chain
+Loading from LangChainHub
+LLM Chain
+Router Chains
+Sequential Chains
+Serialization
+Transformation Chain
+Analyze Document
+Chat Over Documents with Chat History
+Graph QA
+Hypothetical Document Embeddings
+Question Answering with Sources
+Question Answering
+Summarization
+Retrieval Question/Answering
+Retrieval Question Answering with Sources
+Vector DB Text Generation
+API Chains
+Self-Critique Chain with Constitutional AI
+FLARE
+BashChain
+LLMCheckerChain
+LLM Math
+LLMRequestsChain
+LLMSummarizationCheckerChain
+Moderation
+Router Chains: Selecting from multiple prompts with MultiPromptChain
+Router Chains: Selecting from multiple prompts with MultiRetrievalQAChain
+OpenAPI Chain
+PAL
+SQL Chain example
+
+
+Reference
+
+
+Agents
+Getting Started
+Tools
+Getting Started
+Defining Custom Tools
+Multi-Input Tools
+Tool Input Schema
+Apify
+ArXiv API Tool
+AWS Lambda API
+Shell Tool
+Bing Search
+ChatGPT Plugins
+DuckDuckGo Search
+File System Tools
+Google Places
+Google Search
+Google Serper API
+Gradio Tools
+GraphQL tool
+HuggingFace Tools
+Human as a tool
+IFTTT WebHooks
+Metaphor Search
+OpenWeatherMap API
+Python REPL
+Requests
+SceneXplain
+Search Tools
+SearxNG Search API
+SerpAPI
+Wikipedia
+Wolfram Alpha
+YouTubeSearchTool
+Zapier Natural Language Actions API
+
+
+Agents
+Agent Types
+Custom Agent
+Custom LLM Agent
+Custom LLM Agent (with a ChatModel)
+Custom MRKL Agent
+Custom MultiAction Agent
+Custom Agent with Tool Retrieval
+Conversation Agent (for Chat Models)
+Conversation Agent
+MRKL
+MRKL Chat
+ReAct
+Self Ask With Search
+Structured Tool Chat Agent
+
+
+Toolkits
+CSV Agent
+Gmail Toolkit
+Jira
+JSON Agent
+OpenAPI agents
+Natural Language APIs
+Pandas Dataframe Agent
+PlayWright Browser Toolkit
+PowerBI Dataset Agent
+Python Agent
+Spark Dataframe Agent
+SQL Database Agent
+Vectorstore Agent
+
+
+Agent Executors
+How to combine agents and vectorstores
+How to use the async API for Agents
+How to create ChatGPT Clone
+Handle Parsing Errors
+How to access intermediate steps
+How to cap the max number of iterations
+How to use a timeout for the agent
+How to add SharedMemory to an Agent and its Tools
+
+
+Plan and Execute
+
+
+Callbacks
+
+Use Cases
+
+Autonomous Agents
+Agent Simulations
+Agents
+Question Answering over Docs
+Chatbots
+Querying Tabular Data
+Code Understanding
+Interacting with APIs
+Summarization
+Extraction
+Evaluation
+Agent Benchmarking: Search + Calculator
+Agent VectorDB Question Answering Benchmarking
+Benchmarking Template
+Data Augmented Question Answering
+Generic Agent Evaluation
+Using Hugging Face Datasets
+LLM Math
+Evaluating an OpenAPI Chain
+Question Answering Benchmarking: Paul Graham Essay
+Question Answering Benchmarking: State of the Union Address
+QA Generation
+Question Answering
+SQL Question Answering Benchmarking: Chinook
+
+
+
+Reference
+
+Installation
+API References
+Models
+LLMs
+Chat Models
+Embeddings
+
+
+Prompts
+PromptTemplates
+Example Selector
+Output Parsers
+
+
+Indexes
+Docstore
+Text Splitter
+Document Loaders
+Vector Stores
+Retrievers
+Document Compressors
+Document Transformers
+
+
+Memory
+Chains
+Agents
+Agents
+Tools
+Agent Toolkits
+
+
+Utilities
+Experimental Modules
+
+
+
+Ecosystem
+
+Integrations
+AI21 Labs
+Aim
+AnalyticDB
+Anyscale
+Apify
+AtlasDB
+Banana
+CerebriumAI
+Chroma
+ClearML Integration
+Cohere
+Comet
+Databerry
+DeepInfra
+Deep Lake
+Docugami
+ForefrontAI
+Google Search
+Google Serper
+GooseAI
+GPT4All
+Graphsignal
+Hazy Research
+Helicone
+Hugging Face
+Jina
+LanceDB
+Llama.cpp
+Metal
+Milvus
+MLflow
+Modal
+MyScale
+NLPCloud
+OpenAI
+OpenSearch
+OpenWeatherMap API
+Petals
+PGVector
+Pinecone
+PipelineAI
+Prediction Guard
+PromptLayer
+Qdrant
+Rebuff: Prompt Injection Detection with LangChain
+Redis
+Replicate
+Runhouse
+RWKV-4
+SearxNG Search API
+SerpAPI
+StochasticAI
+Tair
+Unstructured
+Weights & Biases
+Weaviate
+Wolfram Alpha Wrapper
+Writer
+Yeager.ai
+Zilliz
+
+
+Dependents
+
+Additional Resources
+
+LangChainHub
+Gallery
+Deployments
+Tracing
+Model Comparison
+Discord
+YouTube
+Production Support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.md
+
+
+
+
+
+
+
+.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concepts
+
+
+
+
+ Contents 
+
+
+
+Chain of Thought
+Action Plan Generation
+ReAct
+Self-ask
+Prompt Chaining
+Memetic Proxy
+Self Consistency
+Inception
+MemPrompt
+
+
+
+
+
+
+
+
+Concepts#
+These are concepts and terminology commonly used when developing LLM applications.
+It contains reference to external papers or sources where the concept was first introduced,
+as well as to places in LangChain where the concept is used.
+
+Chain of Thought#
+Chain of Thought (CoT) is a prompting technique used to encourage the model to generate a series of intermediate reasoning steps.
+A less formal way to induce this behavior is to include “Let’s think step-by-step” in the prompt.
+
+Chain-of-Thought Paper
+Step-by-Step Paper
+
+
+
+Action Plan Generation#
+Action Plan Generation is a prompting technique that uses a language model to generate actions to take.
+The results of these actions can then be fed back into the language model to generate a subsequent action.
+
+WebGPT Paper
+SayCan Paper
+
+
+
+ReAct#
+ReAct is a prompting technique that combines Chain-of-Thought prompting with action plan generation.
+This induces the to model to think about what action to take, then take it.
+
+Paper
+LangChain Example
+
+
+
+Self-ask#
+Self-ask is a prompting method that builds on top of chain-of-thought prompting.
+In this method, the model explicitly asks itself follow-up questions, which are then answered by an external search engine.
+
+Paper
+LangChain Example
+
+
+
+Prompt Chaining#
+Prompt Chaining is combining multiple LLM calls, with the output of one-step being the input to the next.
+
+PromptChainer Paper
+Language Model Cascades
+ICE Primer Book
+Socratic Models
+
+
+
+Memetic Proxy#
+Memetic Proxy is encouraging the LLM
+to respond in a certain way framing the discussion in a context that the model knows of and that
+will result in that type of response.
+For example, as a conversation between a student and a teacher.
+
+Paper
+
+
+
+Self Consistency#
+Self Consistency is a decoding strategy that samples a diverse set of reasoning paths and then selects the most consistent answer.
+Is most effective when combined with Chain-of-thought prompting.
+
+Paper
+
+
+
+Inception#
+Inception is also called First Person Instruction.
+It is encouraging the model to think a certain way by including the start of the model’s response in the prompt.
+
+Example
+
+
+
+MemPrompt#
+MemPrompt maintains a memory of errors and user feedback, and uses them to prevent repetition of mistakes.
+
+Paper
+
+
+
+
+
+
+
+
+
+
+previous
+Quickstart Guide
+
+
+
+
+next
+Tutorials
+
+
+
+
+
+
+
+
+
+ Contents
+  
+
+
+Chain of Thought
+Action Plan Generation
+ReAct
+Self-ask
+Prompt Chaining
+Memetic Proxy
+Self Consistency
+Inception
+MemPrompt
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on May 18, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
