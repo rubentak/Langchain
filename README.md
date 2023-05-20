@@ -1,7 +1,12 @@
 # Langchain 🦜🔗
 ### This repository will show how Langchain🦜🔗 library can be used and integrated
 
-[Medium article!](https://medium.com/@rubentak/give-openai-models-with-internet-access-using-langchain-7d5849f33e03)
+Medium articles:
+
+[Give openai GPT internet access](https://medium.com/@rubentak/give-openai-models-with-internet-access-using-langchain-7d5849f33e03)
+
+[LangChain chains](https://medium.com/@rubentak/langchain-using-different-langchain-chains-to-write-a-new-episode-for-the-office-us-7c45d869d895)
+
 
 LangChain is a Python library that allows you to chain together multiple APIs and external data sources to create more complex and dynamic AI applications. It acts as a middle layer between different machine learning models and external data sources like databases, web APIs, and file systems, allowing you to easily incorporate them into your AI workflows.
 
