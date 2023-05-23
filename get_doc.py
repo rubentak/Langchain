@@ -1,9 +1,1 @@
-import urllib.request
-import html
-
-# clone website and save
-
-response = urllib.request.urlopen('https://www.python.org')
-html = response.read()
-print(html)
-
+# convert get_doc.ipynb to get_doc.py
