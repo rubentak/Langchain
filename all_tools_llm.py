@@ -26,7 +26,7 @@ os.environ["GOOGLE_CSE_ID"] = credentials. google_cse_id
 os.environ["WOLFRAM_ALPHA_APPID"] = credentials. wolfram_alpha_appid
 os.environ["NEWS_API_KEY"] = credentials.news_api_key
 
-newsapi = NewsApiClient(api_key='07e3b0dee63f4126a1ac417bc51732a2')
+newsapi = NewsApiClient(api_key='...')
 
 memory = ConversationBufferMemory()
 llm = ChatOpenAI( )
