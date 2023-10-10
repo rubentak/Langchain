@@ -10,6 +10,8 @@ Medium articles:
 
 [Talk with your CSV files!](https://medium.com/@rubentak/talk-to-your-data-base-with-gpt-models-using-langchain-csv-19e2b32aa729)
 
+[Talk to your PDF files in a Pinecone Vector Databases with GPT-4: A Step-by-Step Tutorial](https://medium.com/@rubentak/talk-to-your-pdf-files-in-a-pinecone-vector-databases-with-gpt-4-a-step-by-step-tutorial-1632cf7aa041)
+
 
 LangChain is a Python library that allows you to chain together multiple APIs and external data sources to create more complex and dynamic AI applications. It acts as a middle layer between different machine learning models and external data sources like databases, web APIs, and file systems, allowing you to easily incorporate them into your AI workflows.
 
